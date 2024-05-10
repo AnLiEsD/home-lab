@@ -1,0 +1,16 @@
+clone_node_name        = "home-lab"
+clone_vm_id            = 100
+datastore_id           = "local-lvm"
+disk_file_format       = "qcow2"
+node_name              = "home-lab"
+tmp_dir                = "/tmp"
+vm_bridge_lan          = "vmbr0"
+vm_cpu_cores_number    = 4
+vm_cpu_type            = "x86-64-v2-AES"
+vm_description         = "OpenTofu"
+vm_disk_size           = 100
+vm_id                  = 110
+vm_memory_max          = 24576
+vm_memory_min          = 16384
+vm_name                = "OT-test"
+vm_socket_number       = 1
